@@ -1,5 +1,14 @@
 import java.util.*;
 
+/* Approach
+ * I was thinking how to make a caculator which directly evaluate your expression and produce output
+ * comes with infix expression where operator is used between two operands 
+ * first think of directly evaluating the infix expression but that is very much complex
+ * so comes with converting the infix expression to postfix expression 
+ * Then evaluating the postfix expression 
+ * This is what whole idea is involved.
+ */
+
 class ExpressionCalculator {
 
     /* This method actually return the precedence of the operators */
