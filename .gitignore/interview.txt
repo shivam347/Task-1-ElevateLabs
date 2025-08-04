@@ -1,0 +1,45 @@
+Created a list of interview questions for my purpose 
+
+ 1.What is method overloading?
+ ans - Method overloading is also called compile time polymorphism, we use different methods with same name and 
+ only difference is in type of data types, no of arguments etc.
+ 
+ 2.How do you handle divide-by-zero?
+ and - Divide by zero is an arithmetic exception caused in java, it is handled by using try-catch block 
+
+ 3.Difference between == and .equals()?
+ ans - Both are used to compare the values but difference is == compares the memory address of the object references
+ and also it compares the value directly with the primitive data types, whereas .equals check actual value for  comparison.
+
+ 4.What are the basic data types in Java?
+ ans -> Total 8 basic data types in java - byte, short, int, long, double, float, boolean, char.
+  
+ 5.How is Scanner used for input?
+ ans -> Scanner is a class in the java.util package used to read different types of input like
+  int, double, String, etc., from various sources — most commonly from the keyboard (System.in).
+
+ 6.Explain the role of a loop.
+ ans - > A loop in Java is used to execute a block of code repeatedly until a certain condition is met. 
+
+ 7.Difference between while and for loop?
+ ans - for loop is mainly used when we know the no of iterations whereas in while loop
+  there is no need for the no of iterations it works directly on the condition
+
+ 8.What is the JVM?
+ ans - JVM stands for java virtual machine which is a part of JRE, JVM is responsible to execute the byte code(.class file)
+ which make java as platform-independent language.
+
+ 9.How is Java platform-independent?
+ ans - java is platform-independent because it converts the source code to byte code(.class file). This byte code is not machine specific 
+ or any operating system. It can be executed on any system which has jvm installed in it 
+
+
+ 10.How do you debug a Java program
+ ans - 1. I use IDE debugger - step-in/step-out over method calls
+       2. print statement to check the values 
+       3. Exception stack trace - read errors to locate issues
+       4. Junit testing 
+
+ 
+
+
