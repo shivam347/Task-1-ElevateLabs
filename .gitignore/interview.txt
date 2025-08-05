@@ -40,6 +40,51 @@ Created a list of interview questions for my purpose
        3. Exception stack trace - read errors to locate issues
        4. Junit testing 
 
+
+ Task -2 Question 
+
+ 1. What is Encapsulation?
+Ans: Encapsulation is an OOP concept where data is bound to classes and accessed or modified through getters and setters. This helps in protecting the internal state of an object from unintended interference.
+
+2. How are ArrayLists different from Arrays?
+Ans: Arrays are fixed-size collections of elements of the same data type, whereas ArrayLists are dynamic and can grow or shrink at runtime. ArrayLists can only store objects, not primitive types.
+
+3. How to sort an ArrayList?
+Ans: You can use Collections.sort(arrayListName) to sort an ArrayList in ascending order.
+
+4. What is Constructor Overloading?
+Ans: Constructor overloading is a concept of polymorphism where multiple constructors with the same name exist in a class, but with different parameter types or numbers, allowing different ways of object initialization.
+
+5. How does Garbage Collection work in Java?
+Ans: Garbage Collection in Java is an automatic process that identifies and removes unused or unreachable objects from memory to free up resources and prevent memory leaks.
+
+6. Why do we use Getters and Setters?
+Ans: Getters and setters are used to implement encapsulation. They provide controlled access to the fields of a class, allowing validation and preventing direct modification of private data.
+
+7. What is a Static Variable?
+Ans: A static variable belongs to the class rather than any individual object. It is shared among all instances of the class and is initialized only once when the class is loaded.
+
+8. What is the use of the Final Keyword?
+Ans: The final keyword is used to restrict changes. It can be applied to variables (to prevent reassignment), methods (to prevent overriding), and classes (to prevent inheritance).
+
+9. Difference between Compile-Time and Runtime Errors?
+Ans:
+
+Compile-time errors are detected by the compiler while the code is being compiled, such as syntax errors or missing references.
+
+Runtime errors occur during program execution, such as NullPointerException or division by zero.
+
+10. What are Access Modifiers?
+Ans: Access modifiers define the visibility of classes, methods, and variables. Java provides four access modifiers:
+
+public – accessible from anywhere
+
+private – accessible only within the class
+
+protected – accessible within the package and by subclasses
+
+(default) – accessible only within the package
+
  
 
 
