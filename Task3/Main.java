@@ -75,6 +75,7 @@ public class Main {
 
                 case 0:
                     System.out.println("You have Succesfully Exit");
+                    sc.close();
                     return;
 
                 default:
@@ -85,5 +86,7 @@ public class Main {
         }
 
     }
+
+    
 
 }
