@@ -3,17 +3,18 @@ package Task3;
 public class Book {
 
     // Instance variables 
-
     private String bookName;  
     private String author;
     private boolean isBorrowed;
 
+    /* Constructor */
     public Book(String bookName, String author) {
         this.bookName = bookName;
         this.author = author;
         this.isBorrowed = false;
     }
 
+    /* Getter and No setters */
     public String getBookName() {
         return bookName;
     }
@@ -38,6 +39,7 @@ public class Book {
         isBorrowed = false;
     }
 
+    /* To string method for display */
     @Override
     public String toString() {
         return "Book [bookName=" + bookName + ", author=" + author + ", isBorrowed=" + isBorrowed + "]";
