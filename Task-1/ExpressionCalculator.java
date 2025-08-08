@@ -160,6 +160,8 @@ class ExpressionCalculator {
 
         System.out.print("The output: " + result);
 
+        sc.close();
+
     }
 
 }
